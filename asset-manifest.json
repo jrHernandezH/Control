@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/Control/static/css/main.f855e6bc.css",
-    "main.js": "/Control/static/js/main.62efe4a7.js",
+    "main.css": "/Control/static/css/main.47a21013.css",
+    "main.js": "/Control/static/js/main.1bfce1ac.js",
     "static/js/787.e4242e3d.chunk.js": "/Control/static/js/787.e4242e3d.chunk.js",
-    "static/media/logo.svg": "/Control/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/boxicons.svg": "/Control/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/img5_11_11zon.webp": "/Control/static/media/img5_11_11zon.ec4e98eb531775cdeefb.webp",
+    "static/media/boxicons.eot": "/Control/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/Control/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/Control/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/Raleway-VariableFont_wght.ttf": "/Control/static/media/Raleway-VariableFont_wght.e14d84ccec6be3ff19e3.ttf",
+    "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/Control/static/media/PlayfairDisplay-VariableFont_wght.20240034b80f50c3ad00.ttf",
+    "static/media/Poppins-Regular.ttf": "/Control/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/boxicons.woff2": "/Control/static/media/boxicons.df635aaf04cd75132f62.woff2",
     "index.html": "/Control/index.html",
-    "main.f855e6bc.css.map": "/Control/static/css/main.f855e6bc.css.map",
-    "main.62efe4a7.js.map": "/Control/static/js/main.62efe4a7.js.map",
+    "main.47a21013.css.map": "/Control/static/css/main.47a21013.css.map",
+    "main.1bfce1ac.js.map": "/Control/static/js/main.1bfce1ac.js.map",
     "787.e4242e3d.chunk.js.map": "/Control/static/js/787.e4242e3d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.62efe4a7.js"
+    "static/css/main.47a21013.css",
+    "static/js/main.1bfce1ac.js"
   ]
 }
