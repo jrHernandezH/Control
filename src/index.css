@@ -1,13 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  /*textos*/
+  --color-links: #18191F;
+  --parrafos: #454545;
+  --legibles: #909090;
+  --span: rgba(255,255,255.7);
+  --primario: #925FE2;
+  /*filtros*/
+  --mascara-img: rgba(0,0,0,.4);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+}
+::-webkit-scrollbar-thumb{
+  background: none;
+  border-radius: 0;
+}
+::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+/*Fuentes utilizadas*/
+@font-face {
+  font-family: 'Playfair';
+  src: url(./assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url(./assets//fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
 }
