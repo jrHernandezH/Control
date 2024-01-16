@@ -96,5 +96,101 @@
 }
 .about-us{
     width: 539px;
+    height: 290px;
+}
+.arrows{
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrow{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrow:hover{
+    cursor: pointer;
+}
+.main{
+    width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #141414;
+    padding: 10px 0 40px;
+}
+.container-footer{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 284px);
+    justify-content: space-between;
+    color: #fff;
+}
+.container-footer .links-documentation,
+.container-footer .social-medias,
+.container-footer .contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.header-links, .header-social, .header-contact{
+    width: 100%;
+}
+.header-links h4{
+    color: #FFF;
+    font-family: 'Playfair';
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.container-footer .links-documentation .body-links,
+.container-footer .social-medias .body-social{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.body-links a, .body-social a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: .9em;
+    font-weight: 500;
+    font-feature-settings: 'clig' off, 'liga' off;
+}
+.leyend{
+    width: 100%;
+}
+.leyend span{
+    color: #909090;
+    font-weight: 500;
+    font-family: 'Raleway';
+}
+.contact-body {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #FFF;
+    padding: 12px 10px;
+}
+.contact-body:hover {
+    cursor: pointer;
 }

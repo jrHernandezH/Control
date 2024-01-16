@@ -1,0 +1,67 @@
+.news{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 32px;
+}
+.news-header{
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news-header h3{
+    width: 536px;
+    font-size: 2em;
+    font-family: 'Playfair';
+    font-weight: 700;
+    line-height: normal;
+    font-size: normal;
+}
+.filter{
+    width: 221px;
+    display: flex;
+    justify-content: space-around;
+}
+.filter span{
+    font-family: 'Raleway';
+    font-size: .8em;
+    font-weight: 500;
+}
+.news-body{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,331px);
+    grid-template-rows: repeat(2, 345px);
+    row-gap: 41px;
+    justify-content: space-between;
+}
+.card{
+    width: 331px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.card-header{
+    width: 100%;
+    height: 210px;
+    border-bottom: 1px solid #000;
+}
+.card-header img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.card h4{
+    font-size: .9em;
+    font-weight: 700;
+    font-family: 'Playfair';
+}
+.card p{
+    color: var(--parrafos);
+}

@@ -1,0 +1,13 @@
+.about-title{
+    font-family: 'Playfair';
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.about-parrafo{
+    font-family: 'Raleway';
+    font-weight: 500;
+    line-height: 135%;
+}
